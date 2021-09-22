@@ -10,6 +10,8 @@ namespace XFAppVersionSample
         {
             InitializeComponent();
 
+            Xamarin.Essentials.VersionTracking.Track();
+
             MainPage = new MainPage();
         }
 
